@@ -1,7 +1,7 @@
 /* ===== (Soal 1 Skill Assesment ED) =====
  * Hanya menjawab apakah bisa kerjain, untuk ingin kerjainnya sendiri opsional
  * Jangan pakai AI ya
- * 
+ *
  * Soal 1: Input, Output, If, dan While
  *
  * Nama: Isi nama kalian di sini
@@ -21,16 +21,26 @@
 
 // Contoh
 // Membuat fungsi main (BISA) [contoh]
-int main(){
-  // Input jumlah soal (APAKAH BISA?) [isi yang dalam kurung (APAKAH BISA?)]
-  
-  // Loop sebanyak jumlah soal (APAKAH BISA?)
-    
-    // Setiap loop minta jawaban soal (APAKAH BISA?)
+int main() {
+    // Input jumlah soal (BISA) [isi yang dalam kurung (APAKAH BISA?)]
+    int n;
+    scanf("%d", &n);
 
-    // Tergantung jawaban apa, tambahkan nilai (APAKAH BISA?)
+    // Loop sebanyak jumlah soal (BISALAH YAKALI GABISA)
+    int count = 0;
+    for (int i = 0; i < n; i++) {
+        // Setiap loop minta jawaban soal (BISA BNGTTT)
+        int jawaban;
+        scanf("%d", &jawaban);
 
+        // Tergantung jawaban apa, tambahkan nilai (B I S A)
+        if (jawaban == 1)
+            count += 2;
+        else if (jawaban == 2)
+            count -= 1;
+        else
+            count += 0;
+    }
 
-  // Output nilai akhir (APAKAH BISA?)
+    // Output nilai akhir (gabisa)
 }
-
