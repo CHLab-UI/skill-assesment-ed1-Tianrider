@@ -31,6 +31,9 @@ int main() {
     char pujaanHati[9] = {'C', 'r', 'y', 's', 't', 'a', 'l', 'y'};
 
     // Input array pakai loop, atau kalau array of char bisa input sebaga string (g bisa maunya taly)
+    /** 🚀🚀[REVIEW]🚀🚀
+     *  Masa input string aja gak bisa
+     */
 
     // Panggil fungsi printReverse (APAKAH BISA?)
     printReverse(pujaanHati);

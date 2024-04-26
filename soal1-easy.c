@@ -43,4 +43,7 @@ int main() {
     }
 
     // Output nilai akhir (gabisa)
+    /** 🚀🚀[REVIEW]🚀🚀
+     *  Tidak ada return 0, not best practice
+     */
 }
